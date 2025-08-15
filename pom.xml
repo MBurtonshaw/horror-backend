@@ -78,8 +78,7 @@
 				<configuration>
 					<appName> horror-catalogue </appName>
 					<processTypes>
-						<web>java $JAVA_OPTS -Dserver.port=$PORT -cp target/classes:target/dependency/* com.horrorFilms.HorrorCatalogue.HorrorCatalogueApplication </web>
-					</processTypes>
+						<web>java -Dserver.port=$PORT -jar target/HorrorCatalogue-0.0.1-SNAPSHOT.jar</web>					</processTypes>
 				</configuration>
 			</plugin>
 		</plugins>
